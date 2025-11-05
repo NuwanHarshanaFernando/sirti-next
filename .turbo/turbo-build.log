@@ -1,0 +1,26 @@
+
+> sirti-inventory@0.1.7 build
+> node scripts/generate-env.js && next build
+
+Current directory: C:\Users\thisa\Documents\GitHub\sirti-inventory\scripts
+Looking for package.json at: C:\Users\thisa\Documents\GitHub\sirti-inventory\package.json
+📦 Found version: 0.1.7
+✅ Successfully set version 0.1.7 in .env.local at C:\Users\thisa\Documents\GitHub\sirti-inventory\.env.local
+   ▲ Next.js 15.3.2
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 10.0s
+   Linting and checking validity of types ...
+   Collecting page data ...
+[Error [PageNotFoundError]: Cannot find module for page: /inventory/edit-product] {
+  code: 'ENOENT'
+}
+[Error [PageNotFoundError]: Cannot find module for page: /inventory/manage-inventory/test/[productId]] {
+  code: 'ENOENT'
+}
+
+> Build error occurred
+[Error: Failed to collect page data for /inventory/edit-product] {
+  type: 'Error'
+}
